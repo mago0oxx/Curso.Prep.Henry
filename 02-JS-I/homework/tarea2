@@ -1,0 +1,71 @@
+Tarea 2
+
+Variables: 
+    es una manera de almacenar una informacion o un tipo de datos o varios 
+en algo para poderlo usar mas tarde. javascrip no es un lenguaje fuertemente tipado ,
+es decir no hace falta de indiques el tipa que usara en esa variable, como 
+por ejemplo en java. solo se utiliza la palabra clave var , let , o const 
+para declarar la misma y poderla usar mas tarde.
+
+Strings
+
+    Son tipos de datos Agrupados como bloques de texto, se deben de declara 
+con comillas dobles o simple, para la maquina entienda que en un tipo de dato String:
+Ejemplo;
+
+var abuelo= "grampa";
+
+Funciones
+Son n tipos particulares de objetos, llamados Callables objetos, 
+o objetos invocables, por lo que tienen las mismas propiedades de 
+cualquier objeto. 
+
+ /////// Ejemplo de función ///////
+
+function miFuncion() {}
+    var otraFuncion = function () {};
+    var yOtra = () => {};
+
+//////// Ejemplo de funcion con variables dentro/////
+
+
+function otraFuncion (nombre , apellido) {
+    console.log ( "hola, bienvenido " + nombre + apellido);
+}
+
+
+otraFuncion ("martin", "garcia");
+
+
+Argumentos 
+
+los argumentos de la funcion son variables que podemos declarar al momento de crear la funcion, para luego poder utilizarlos dentro de la funcion.
+
+Return 
+
+Por su nombre en ingles tambien podemos deducir que es una funcion de tipo retorno, la cual la utilizamos para retor algo que necesitamos.
+ya sea un dato , un objeto o una funcion.
+
+Declaracion if
+
+la declaracion "IF" un un control de flujo o control flow, 
+es una forma de nuestra funcion verifique si algo es true o false, 
+y asi ejecutar una accion,
+
+var a= 2; 
+var b= 3;
+
+if (a < b){
+console.log ( " A es menor a B");
+}else 
+{
+    console.log ("B es menor a A");:
+}
+
+valores booleanos true or false 
+
+Provienen de la [logica de boole] 
+Son tipo de datos de comparación, que utilizaremos para evaluar si algo es 
+verdadero o falso y asi realizar alguna accion.
+
+
