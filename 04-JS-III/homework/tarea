@@ -1,0 +1,6 @@
+Arrays 
+podemos pensan en los arrays como contenedores de almacenamiento para 
+colecciones de Datos, Sos extremadamente utiles para poder guardar 
+muchos datos en una sola variable. y tenemos metodos muy utiles parapoder 
+acceder a los elementos dentro de la misma. como los son los metodos, 
+.length, .pop,  .push , .shift y unshift. Entre otros.  
