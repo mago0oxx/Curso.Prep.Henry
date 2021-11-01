@@ -1,0 +1,58 @@
+Objetos en javascript 
+principalmente en javascript todo es un Objeto, Por lo que debemos 
+enterder esto a la perfeccion para poder entender realmente javascript
+un objeto Es una matriz que contiene mucha informacion sobre una sola cosa ò
+Variable, 
+Los objetos se instancian usando llaves. ({})
+Ejemplo 
+
+Var Auto = {
+marca : "toyota" ,
+modelo : "corolla", 
+año : "2018",
+km : 57.000,
+color : "blanco",
+patente : "AD124oH",
+};
+ 
+ metodos 
+ Las funciones guardadas en un objeto se denominan metodos.
+ la invocaremos utilizando la notacion de puntos y parentesis finales.
+
+
+ bucle for- in  
+  el bucle for in funciona como lo hace el bucle for en un 
+  array,  solo que  un poco diferente por que los objetos no contienen 
+  indices numericos. entonces en este caso lo que hacemos es colocar el 
+  for y dentro de los parentesis colocamos la palabra clave "in " 
+  y el nombre del  objeto, hacer esto recorrera cada clave del objeto.
+  y finalizara cuando se haya iterado todas las claves. podemos usar esta clave y la notacion de corchetes en nuestro ciclo for para acceder a acceder al valor asociado con la clave.
+
+  ejemplo:
+
+  const usuario = {
+    username: 'juan.perez',
+    password: 'loremipsumpwd123',
+    lovesJavascript: true,
+    favoriteNumber: 42
+};
+for (let clave in usuario){
+    console.log(clave);
+    console.log(usuario[clave]);
+}
+
+  notacion de puntos vs notacion de corchetes 
+
+funcionan ambas para crear y darler valor a las propiedades del objeto 
+
+
+const nuevoUsuario = {
+    esNuevo: true
+}
+
+const loveJSString = 'lovesJavascript';
+
+nuevoUsuario.username = 'otro.nombre.de.usuario';
+nuevoUsuario['password'] = '12345';
+nuevoUsuario[loveJSString] = true;
+
