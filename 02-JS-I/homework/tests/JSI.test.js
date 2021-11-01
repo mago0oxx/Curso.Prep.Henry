@@ -134,7 +134,7 @@ describe('menosQueNoventa(num)', function() {
   });
 });
 
-describe('mayorQueCincuenta(num)', function() {
+describe('mayorQueCincuenta(num)ls', function() {
   it('Deberia devolver true si el numero es mayor a cincuenta sino false', function() {
     expect(mayorQueCincuenta(15)).toBe(false);
     expect(mayorQueCincuenta(50)).toBe(false);
