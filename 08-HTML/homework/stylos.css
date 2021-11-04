@@ -1,0 +1,42 @@
+           html{
+               background-image: url(https://www.teahub.io/photos/full/282-2820540_background-image-for-html-page.jpg);
+
+
+           }
+
+
+
+
+            h1 {
+                text-align: center;
+                color: red; 
+            }
+            img {
+                float:none;
+                margin: 0 0 1em 1em;
+                width: 400px;
+            }
+            #thirdDiv {
+                height: 600px;
+                width: 800px;
+                background-color: rgb(72, 86, 131);
+                padding: 50px;
+                border-color: slategrey;
+                border-radius: 5px;
+                box-shadow: slategrey 5px 5px 5px;
+                margin: 10px auto;
+            }
+            #spanId {
+                font-size: 18px;
+                margin: 50px;
+            }
+            .divClass {
+                width: 1000px;
+                margin: 10px auto;
+                padding: 50px;
+                border: solid blue 5px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                 box-sizing: border-box;
+}
+            
